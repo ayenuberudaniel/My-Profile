@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omo Oba | Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="login">
+
+    <div class="theme-toggle" id="themeToggle">
+      <span class="toggle-icon">☀️</span>
+      <span class="toggle-icon">🌙</span>
+      <div class="toggle-slider" id="toggleSlider"></div>
+    </div>
+
+    <div class="login-right">
+
+      <div class="brand">
+
+        <img src="images/omoba-logo.svg" alt="Omo Oba logo" class="brand-logo" id="logoImage">
+
+        <div>
+          <span class="brand-name">OMO OBA</span>
+          <span class="brand-tagline">Think. Build. Become.</span>
+        </div>
+
+      </div>
+
+      <h1><span class="highlight">Welcome</span> to<br>My Private Space</h1>
+
+      <p class="text">
+        A personal hub for my studies, files, plans and dreams.
+        Built for focus, growth and the journey to becoming a
+        software engineer.
+      </p>
+
+      <div class="quote">
+        "Discipline today,<br>freedom tomorrow."
+        <span>— OMO OBA</span>
+      </div>
+
+    </div>
+
+    <div class="login-left">
+
+      <form class="login-card" id="loginForm">
+
+        <h2>Login to continue</h2>
+        <p class="card-subtext">Only I have access to this space.</p>
+
+        <label for="username">Username</label>
+        <div class="input-box">
+          <span class="input-icon"><img src="images/contact-icon.svg" alt=""></span>
+          <input type="text" id="username" placeholder="Enter your username" required>
+        </div>
+
+        <label for="password">Password</label>
+        <div class="input-box">
+          <span class="input-icon"><img src="images/lock-icon.svg" alt=""></span>
+          <input type="password" id="password" placeholder="Enter your password" required>
+          <img src="images/eye-open-icon.svg" alt="Toggle password visibility" class="toggle-password" id="togglePassword">
+        </div>
+
+        <button type="submit">Login</button>
+
+        <p class="private-note">🔒 Private Access</p>
+
+        <p class="error-message" id="errorMessage"></p>
+
+      </form>
+    </div>
+
+  </div>
+
+  <script src="login.js"></script>
+
+</body>
+
+</html>
