@@ -9,6 +9,7 @@
   --bg-overlay: rgba(255, 255, 255, 0);
   --login-card-h2: #0a0e27;
   --login-card-label:#131a3a;
+  --login-card-input:black;
 }
 
 [data-theme="dark"] {
@@ -22,6 +23,7 @@
   --bg-overlay:#131a3a;
   --login-card-h2: var(--text-secondary);
   --login-card-label: var(--text-secondary);
+  --login-card-input: var(var(--text-secondary))
 }
 
 * {
@@ -215,7 +217,7 @@ body {
   border-radius: 8px;
   font-size: 14px;
   background-color: var(--bg-card);
-  color: black;
+ color: var(--login-card-input);
 }
 
 .toggle-password {
