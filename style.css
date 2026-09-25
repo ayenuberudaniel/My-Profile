@@ -215,7 +215,7 @@ body {
   border-radius: 8px;
   font-size: 14px;
   background-color: var(--bg-card);
-  color: var(--text-primary);
+  color: black;
 }
 
 .toggle-password {
