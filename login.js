@@ -42,7 +42,6 @@ toggleIcon.addEventListener("click", function () {
 const themeToggle = document.getElementById("themeToggle");
 const htmlElement = document.documentElement;
 
-// Check if a theme was saved from a previous visit
 const savedTheme = localStorage.getItem("theme");
 if (savedTheme === "dark") {
   htmlElement.setAttribute("data-theme", "dark");
